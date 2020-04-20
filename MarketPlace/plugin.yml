@@ -1,5 +1,6 @@
 main: com.jtylerboylan.marketplace.Core
 name: MarketPlace
+depends: [Vault]
 version: 1.0
 author: JTylerBoylan
 commands:
