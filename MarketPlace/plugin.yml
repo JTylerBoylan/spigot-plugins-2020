@@ -1,1 +1,24 @@
-
+main: com.jtylerboylan.marketplace.Core
+name: MarketPlace
+version: 1.0
+author: JTylerBoylan
+commands:
+  createentity:
+    description: Create Entity
+    usage: /createentity <entity-id>
+  deleteentity:
+    description: Delete Entity
+    usage: /deletentity <entity-id>
+  entity:
+    description: View Entity
+    usage: /entity <entity-id>
+  createbusiness:
+    description: Create Business
+    usage: /createbusiness <business-id> <entity-id>
+  deletebusiness:
+    description: Delete Business
+    usage: /deletebusiness <business-id>
+  business:
+    description: View Business
+    usage: /business <business-id>
+    

@@ -1,0 +1,70 @@
+# CONFIG
+
+## Plugin chat prefix
+plugin-prefix: '&7[&aBusinessMC&7]'
+
+
+## Entity prefix
+entity-prefix: '&8[&aEntity&8] &e'
+
+## BUSINESS CONFIG ##
+
+
+## Business prefix
+business-prefix: '&8[&aBusiness&8] &b'
+
+## Determines the price to create a business
+create-business-price: 1000
+
+## Determines max markets per business
+## Can be overriden for a specific entity in entities.yml --> override
+max-markets-per-business: 100
+
+
+
+## MARKET CONFIG ##
+
+## Market prefix
+market-prefix: '&8[&aMarket&8] &d'
+
+## Determines max businesses per entity
+## Can be overriden for a specific entity in entities.yml --> override
+max-business-per-entity: 1
+
+## Determines the market editor price intervals
+market-set-price-intervals:
+  - 0.50
+  - 1.00
+  - 5.00
+  - 10.00
+  - 50.00
+  - 100.00
+  - 1000.00
+  - 5000.00
+  
+## Determines the market sell multipliers
+market-sell-multipliers:
+  - 0.00
+  - 0.10
+  - 0.25
+  - 0.50
+  - 0.75
+  - 1.00
+ 
+## Determines the maximum market level
+market-max-level: 5  
+## There should be 1 less value in market-upgrade-prices than the market-max-level value ##
+market-upgrade-prices:
+  - 10000
+  - 50000
+  - 250000
+  - 1000000
+
+## Determines quantities of buying and selling in market shop
+## Must be 4 values
+market-buy-sell-intervals:
+  - 1
+  - 8
+  - 32
+  - 64
+
