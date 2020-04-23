@@ -1,1 +1,44 @@
+main: com.donsquid.craftexchange.A
+depend: [Vault]
+load: POSTWORLD
 
+name: CraftExchange
+version: 1.0
+author: DonSquid
+description: Exchange your items!
+
+commands:
+  craftexchange:
+    description: Open an exchange.
+    aliases: [exchange, ce]
+  newexchange:
+    description: Create an exchange.
+  deleteexchange:
+    description: Delete an exchange.
+  setexchangetitle:
+    description: Set exchange title.
+  newticker:
+    description: Create a ticker.
+  deleteticker:
+    description: Delete a ticker.
+  setticker:
+    description: Set a ticker's item.
+  listtickers:
+    description: List all tickers.
+  listexchanges:
+    description: List all exchanges.
+  myorders:
+    description: List your orders.
+  cancelorder:
+    description: Cancel an order.
+
+permissions:
+  craftexchange.*:
+    default: op
+  craftexchange.*ticker:
+    default: op
+  craftexchange.*exchange:
+    default: op
+  craftexcahnge.*order:
+    default: op
+  

@@ -1,0 +1,135 @@
+## MESSAGES ##
+prefix: "&2[CraftExchange] &f"
+
+sender-not-player: 
+  - "^prefix You must be a player to run this command."
+no-permission: 
+  - "^prefix You do not have permission for this command."
+
+item-not-found:
+  - "^prefix You do not have any of this item."
+no-money:
+  - "^prefix You do not have enough money to buy this item."
+order-filled:
+  - "^prefix Order filled."
+no-buyers:
+  - "^prefix There are no buyers."
+no-sellers:
+  - "^prefix No one is selling this."
+ask-too-low:
+  - "^prefix That ask price is too low."
+bid-too-low:
+  - "^prefix That bid price is too low."
+
+exchange-unknown: 
+  - "^prefix This exchange does not exist."
+
+craftexchange-usage: 
+  - "^prefix /craftexchange [-flag] <CODE> [ARGS...]"
+craftexchange-invalid-flag: 
+  - "^prefix Invalid flag."
+craftexchange-no-permission: 
+  - "^prefix You do not have permission for this exchange."
+craftexchange-no-permission-edit: 
+  - "^prefix You do not have permission to edit this exchange."
+
+craftexchange-add-usage: 
+  - "^prefix /craftexchange -add <CODE> <TICKER>"
+craftexchange-add-success: 
+  - "^prefix Ticker successfully added to exchange."
+
+craftexchange-remove-usage: 
+  - "^prefix /craftexchange -remove <CODE> <TICKER>"
+craftexchange-remove-success: 
+  - "^prefix Ticker successfully removed from exchange."
+
+
+exchange-already-exists: 
+  - "^prefix This exchange already exists."
+exchange-unknown: 
+  - "^prefix This exchange does not exist."
+
+newexchange-usage: 
+  - "^prefix /newexchange <CODE>"
+newexchange-success: 
+  - "^prefix Exchange successfully created."
+
+deleteexchange-usage: 
+  - "^prefix /deleteexchange <CODE>"
+deleteexchange-success: 
+  - "^prefix Exchange successfully deleted."
+
+setexchangetitle-usage: 
+  - "^prefix /setexchangetitle <CODE> <TITLE>"
+setexchangetitle-success: 
+  - "^prefix Exchange title successfully set."
+
+ticker-already-exists: 
+  - "^prefix This ticker already exists."
+ticker-unknown: 
+  - "^prefix This ticker does not exist."
+ticker-not-in-exhange: 
+  - "^prefix Ticker not in exchange."
+
+newticker-usage: 
+  - "^prefix /newticker <TICKER> &7(Item must be in hand.)"
+newticker-success: 
+  - "^prefix Ticker successfully added."
+
+setticker-usage: 
+  - "^prefix /setticker <TICKER> &7(Item must be in hand.)"
+setticker-success: 
+  - "^prefix Ticker successfully updated."
+
+deleteticker-usage: 
+  - "^prefix /deleteticker <TICKER>"
+deleteticker-success: 
+  - "^prefix Ticker successfully deleted."
+
+order-unknown:
+  - "^prefix That order does not exist."
+
+cancelorder-usage:
+  - "^prefix /cancelorder <TYPE> <TCKR> <PRICE> <AMOUNT>"
+cancelorder-success:
+  - "^prefix Order successfully cancelled."
+
+listtickers-text: 
+  - "^prefix Tickers: [ TCKR : ITEMTYPE ]"
+listexchanges-text: 
+  - "^prefix Exchanges: [ EXCHNGE : TITLE : PERMSSN ]"
+myorders-text:
+  - "^prefix Orders: [ TYPE : TCKR : PRICE : AMOUNT : UUID ]"
+
+type-unknown:
+  - "^prefix Unknown type."
+invalid-number:
+  - "^prefix Invalid number."
+  
+
+help-text:
+  - "^prefix ------------------------------------------------------------"
+  - "^prefix Craft Exchange Help"
+  - "^prefix /craftexchange [-flag] <CODE> [ARGS...]"
+  - "^prefix      &7CraftExchange base command. &8(FLAGS: &7-open&8 -add -remove -help)"
+  - "^prefix /newexchange <CODE>"
+  - "^prefix      &7Create new exchange. &8(PERM: craftexchange.newexchange)"
+  - "^prefix /deleteexchange <CODE>"
+  - "^prefix      &7Remove an exchange. &8(PERM: craftexchange.deleteexchange)"
+  - "^prefix /setexchangetitle <CODE> <TITLE>"
+  - "^prefix      &7Set the title of an exchange. &8(PERM: craftexchange.setexchangetitle)"
+  - "^prefix /listexchanges <#>"
+  - "^prefix      &7List all exchanges. &8(PERM: craftexchange.listexchanges)"
+  - "^prefix /newticker <TCKR> &8(Item must be in hand.)"
+  - "^prefix      &7Create new ticker. &8(PERM: craftexchange.newticker)"
+  - "^prefix /deleteticker <TCKR>"
+  - "^prefix      &7Remove a ticker. &8(PERM: craftexchange.deleteticker)"
+  - "^prefix /setticker <TCKR> &8(Item must be in hand.)"
+  - "^prefix      &7Set the item of a ticker. &8(PERM: craftexchange.setticker)"
+  - "^prefix /listtickers <#>"
+  - "^prefix      &7List all tickers. &8(PERM: craftexchange.listtickers)"
+  - "^prefix /myorders"
+  - "^prefix      &7List your orders. &8(PERM: craftexchange.myorders)"
+  - "^prefix /cancelorder <TYPE> <TCKR> <PRICE> <AMOUNT>"
+  - "^prefix      &7List your orders. &8(PERM: craftexchange.cancelorder)"
+  - "^prefix -------------------------------------------------------------"

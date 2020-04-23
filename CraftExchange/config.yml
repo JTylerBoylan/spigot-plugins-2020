@@ -1,0 +1,8 @@
+#CONFIG
+
+exchange-inventory-size: 54
+
+#MUST BE 8 NUMBERS, FIRST 4 ARE SUBTRACT, SECOND 4 ARE ADD
+ticker-prices: -1000 -100 -10 -1 1 10 100 1000
+lowest-bid: 1.00
+lowest-ask: 1.00
