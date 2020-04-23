@@ -91,7 +91,9 @@ public class A extends JavaPlugin {
 	}
 	
 	public void onDisable() {
-		
+		for (Player p : GUI.player_gui.keySet()) {
+			p.closeInventory();
+		}
 	}
 	
 	public static FileConfiguration getFileConfig() {
