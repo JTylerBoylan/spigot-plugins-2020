@@ -164,7 +164,7 @@ public class Ticker {
 		case 2:
 			if (getLowestAskers().size() == 0)
 				return Float.MAX_VALUE;
-			return getLowestAskers().get(0).getPrice();
+			return -getLowestAskers().get(0).getPrice();
 		default:
 			return getVolume();
 		}

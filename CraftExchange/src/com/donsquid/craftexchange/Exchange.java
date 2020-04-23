@@ -28,7 +28,7 @@ public class Exchange {
 	public Exchange(String CODE) {
 		this.CODE = CODE.toUpperCase();
 		this.TITLE = CODE;
-		this.PERMISSION = "craftexchange." + CODE;
+		this.PERMISSION = "exchange." + CODE.toLowerCase();
 		this.TICKERS = new ArrayList<Ticker>();
 		this.VOLUME = 0;
 		this.FILE = A.getFileManager().getExchangeFile(CODE);

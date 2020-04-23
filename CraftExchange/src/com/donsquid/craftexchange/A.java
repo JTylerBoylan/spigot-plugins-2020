@@ -86,6 +86,7 @@ public class A extends JavaPlugin {
 		this.getCommand("cancelorder").setExecutor(Order.getCommandExecutor());
 		
 		this.getServer().getPluginManager().registerEvents(GUI.getListener(), this);
+		this.getServer().getPluginManager().registerEvents(getListener(), this);
 		
 	}
 	
@@ -185,10 +186,10 @@ public class A extends JavaPlugin {
 	
 	public static void addPendingOrder(Order order) {
 		
-		if (pending.getConfigurationSection("pending") == null)
+		if (pending.getStringList("pending") == null)
 			pending.set("pending", new ArrayList<String>());
 		
-		ArrayList<String> pend = (ArrayList<String>) pending.getStringList("pending");
+		ArrayList<String> pend = new ArrayList<String>(pending.getStringList("pending"));
 		pend.add(order.toString());
 		pending.set("pending", pend);
 		
@@ -236,19 +237,23 @@ public class A extends JavaPlugin {
 				
 				String uid = e.getPlayer().getUniqueId().toString();
 				
-				if (pending.getConfigurationSection("pending") == null)
+				if (pending.getStringList("pending") == null)
 					return;
 				
 				ArrayList<String> pend = (ArrayList<String>) pending.getStringList("pending");
 				
-				for (String o : pend) {
+				for (int i = 0; i < pend.size(); i++) {
+					
+					String o = pend.get(i);
 					
 					if (o.contains(uid)) {
 						
 						Order order = Order.fromString(o);
 						order.fill(order.getAmount());
-						
+					
 						pend.remove(o);
+						
+						i--;
 						
 					}
 					
