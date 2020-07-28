@@ -1,0 +1,5 @@
+main: proj.jtyler.dragonriders.drcommandblocker.CommandBlocker
+name: DR_CommandBlocker
+author: JTyler_
+version: 1.0
+api-version: 1.15

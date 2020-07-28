@@ -1,0 +1,27 @@
+IRON_INGOT:
+  output: IRON_BLOCK
+  cost: 9
+LAPIS_LAZULI:
+  output: LAPIS_BLOCK
+  cost: 9
+GOLD_INGOT:
+  output: GOLD_BLOCK
+  cost: 9
+DIAMOND:
+  output: DIAMOND_BLOCK
+  cost: 9
+EMERALD:
+  output: EMERALD_BLOCK
+  cost: 9
+REDSTONE:
+  output: REDSTONE_BLOCK
+  cost: 9
+COAL:
+  output: COAL_BLOCK
+  cost: 9
+CHARCOAL:
+  output: COAL_BLOCK
+  cost: 9
+QUARTZ:
+  output: QUARTZ_BLOCK
+  cost: 4

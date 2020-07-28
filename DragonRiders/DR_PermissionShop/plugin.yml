@@ -1,0 +1,23 @@
+main: proj.jtyler.dragonriders.permissionshop.PermissionShop
+api-version: 1.15
+depend: [Vault]
+load: POSTWORLD
+
+name: PermissionShop
+version: 1.0
+author: JTyler
+description: Buy Permissions!
+
+commands:
+  permissionshop:
+    description: Open PermissionShop GUI.
+    aliases: [pshop,ps]
+    permission: permissionshop
+    permission-message: You don't have access to this command.
+    usage: /pshop
+    
+permissions:
+  permissionshop:
+    default: true
+  permissionshop.reload:
+    default: op

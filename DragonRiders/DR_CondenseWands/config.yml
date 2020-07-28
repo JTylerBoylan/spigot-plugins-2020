@@ -1,0 +1,12 @@
+condense-wand:
+  material: "BLAZE_ROD"
+  display-name: "&eCondense Wand &7(Right-Click)"
+  lore:
+    - ""
+    - "&7(( &6Right-Click&7 on chests/hoppers"
+    - "&7to instantly &6condense &7their contents! ))"
+    - ""
+    - "&e&nInformation"
+    - "&6» &eUses: &f%uses%"
+    - "&6» &eBlocks condensed: &f%condensed%"
+  enchantment: true

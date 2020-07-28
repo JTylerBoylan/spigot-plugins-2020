@@ -1,0 +1,4 @@
+prefix: "&4[DragonRiders] &f"
+cooldown-s: 5
+gui:
+  name: "&bSlot Machine &d(%slot_id%)"

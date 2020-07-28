@@ -1,0 +1,16 @@
+0:
+  chance: 0.50
+  commands:
+    - give %player% diamond 1
+    - effect give %player% speed 100
+  message: "%prefix% &aYou mined a lucky block."
+1:
+  chance: 0.30
+  commands:
+    - give %player% diamond_block 1
+  message: "%prefix% &a&bYou mined a rare lucky block!"
+  announcement: "%prefix% &e&l%player% mined a rare lucky block and found 1 diamond block!"
+2:
+  chance: 0.20
+  commands:
+    - give %player% emerald_block 1

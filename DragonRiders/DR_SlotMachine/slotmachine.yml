@@ -1,0 +1,27 @@
+'A':
+  map: 226
+  cost: 100
+  reward: 100
+  items:
+    GOLD_BLOCK:
+      name: "&eGold"
+      lore:
+        - "&6$200 for 3 in a row"
+      multiplier: 2
+      wild-card: false
+      chance: 4
+    DIAMOND_BLOCK:
+      name: "&bDiamond"
+      lore:
+        - "&2$300 for 3 in a row"
+      multiplier: 3
+      wild-card: false
+      chance: 3
+    COAL_BLOCK:
+      name: "&0&lCOAL"
+      lore: 
+        - "&7$500 for 3 in row"
+        - "&7&l&oWILDCARD"
+      multiplier: 5
+      wild-card: true
+      chance: 1

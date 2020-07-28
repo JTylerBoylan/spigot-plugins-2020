@@ -1,0 +1,5 @@
+prefix: "&e&l[LuckyBlock]&f"
+
+## Use this link for material names:
+## https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+lucky-block-type: INFESTED_STONE

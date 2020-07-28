@@ -1,0 +1,10 @@
+main: proj.jtyler.dragonriders.drslotmachine.DR_SlotMachine
+name: DR_SlotMachine
+api-version: 1.15
+version: 1.0
+author: JTyler
+
+commands:
+  dragonslots:
+    description: DragonRider's Slot Machines.
+    aliases: [dslots]

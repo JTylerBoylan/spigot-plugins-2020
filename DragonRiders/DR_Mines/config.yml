@@ -1,0 +1,8 @@
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+world: Mines
+mine-blocks:
+  - DIAMOND_ORE
+  - IRON_ORE
+  - COAL_ORE
+filler-block: BEDROCK
+reset-time-s: 120

@@ -1,0 +1,6 @@
+main: proj.jtyler.dragonriders.drmines.Mines
+name: DR_Mines
+load: POSTWORLD
+api-version: 1.15
+author: JTyler
+version: 1.0

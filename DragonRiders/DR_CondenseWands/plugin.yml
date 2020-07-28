@@ -1,0 +1,10 @@
+main: proj.jtyler.dragonriders.condensewands.CondenseWands
+name: DR_CondenseWands
+version: 1.0
+api-version: 1.15
+author: JTyler
+
+commands:
+  condensewand:
+    description: CondenseWands!
+    aliases: [cw]

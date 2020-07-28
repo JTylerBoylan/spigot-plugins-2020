@@ -1,0 +1,10 @@
+main: proj.jtyler.dragonriders.drxpmultiplier.XpMultiplier
+name: DR_XpMultiplier
+author: JTyler
+api-version: 1.15
+version: 1.0
+depend: [PlaceholderAPI]
+commands:
+  xpmultiplier:
+    description: Multiply your xp.
+    aliases: [xpm]

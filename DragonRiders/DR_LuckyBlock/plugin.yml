@@ -1,0 +1,8 @@
+main: proj.jtyler.dragonriders.luckyblock.LuckyBlockDR
+api-version: 1.13
+version: 1.0
+name: DR_LuckyBlock
+author: JTyler
+commands:
+  luckyblockdr:
+    description: LuckyBlock DragonRiders

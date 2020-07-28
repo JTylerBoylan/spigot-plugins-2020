@@ -1,0 +1,54 @@
+prefix: "&2[PermissionShop] &f"
+
+gui-size: 27
+gui-name: "&2[PermissionShop]"
+
+## Material List : https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html ##
+
+filler:
+  material: BLUE_STAINED_GLASS_PANE
+  name: "&1[PermissionShop]"
+
+permissions:
+
+## Exit commands run before permission is taken away ##
+## Use '@' instead of '.' ('.' is a path identifier in config files, won't work)
+
+  essentials@back:
+    price: 10000
+    time-m: 10
+    slot: 11
+    icon: APPLE
+    name: "&b/back"
+    lore:
+      - "&aPrice: $10000"
+      - "&bTime: 10 minutes"
+      - "&7Click to purchase."
+    exit-commands:
+      - ""
+
+  essentials@fly:
+    price: 100000
+    time-m: 120
+    slot: 13
+    icon: FEATHER
+    name: "&b/fly"
+    lore:
+      - "&aPrice: $100000"
+      - "&bTime: 2 hours"
+      - "&7Click to purchase."
+    exit-commands:
+      - "sudo %player% fly"
+
+  essentials@sell:
+    price: 100000
+    time-m: 240
+    slot: 15
+    icon: DIAMOND
+    name: "&b/sell"
+    lore:
+      - "&aPrice: $100000"
+      - "&bTime: 4 hours"
+      - "&7Click to purchase."
+    exit-commands:
+      - ""
