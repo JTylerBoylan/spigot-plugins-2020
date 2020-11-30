@@ -1,0 +1,9 @@
+name: WildStackerPerm
+main: proj.jtyler.dragonriders.drwsp.WildStackerPerm
+
+depend: [WildStacker, Vault, SuperiorSkyblock2]
+
+api-version: 1.15
+version: 1.0
+
+author: JTyler
