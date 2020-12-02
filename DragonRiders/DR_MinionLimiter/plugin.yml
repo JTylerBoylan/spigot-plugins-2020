@@ -1,0 +1,12 @@
+name: DRMinionLimiter
+main: proj.jtyler.dragonriders.drml.DRMinionLimiter
+depend: [Vault, JetsMinions, SuperiorSkyblock2]
+
+version: 1.0
+author: JTyler
+
+api-version: 1.15
+
+commands:
+  drml-set:
+    description: Set island's maximum minions
